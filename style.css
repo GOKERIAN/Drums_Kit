@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.353);
+  background-image: url(image/moon.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  color: white;
+}
+
+.keys {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+  align-items: center;
+}
+
+.key {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+  width: 120px;
+  border: 2px solid white;
+  cursor: pointer;
+  text-shadow: 0 0 5px red;
+  transition: all .07s;
+}
+
+
+
+
+kdb {
+  font-size: 40px;
+  color: orange;
+}
+
+
+.sound{
+  font-weight: bold;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+
+
+.playing{
+  color: rgb(238, 4, 4);
+  border-color: orange;
+  transform: scale(1.1);
+  background-color: black;
+}
